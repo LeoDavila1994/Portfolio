@@ -8,7 +8,7 @@ import pk from '../images/pk.png'
 const Projects = () => {
 
     return (
-        <section className='container'>
+        <section className='container' id='projects'>
             <div className="pj-container">
                 <div className='img-container'>
                     <div className='pj-img-container'>

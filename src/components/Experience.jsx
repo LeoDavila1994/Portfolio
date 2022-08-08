@@ -6,7 +6,7 @@ import front from "../images/front-m.png";
 
 const Experience = () => {
     return (
-        <section className='container'>
+        <section className='container' id='experience'>
             <div className="xp-container">
                 <div className='xp-title-container'>
                     <h2 className='xp-letter-title'>E</h2>

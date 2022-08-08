@@ -6,7 +6,7 @@ import rc from "../images/react.svg";
 
 const Skills = () => {
     return (
-        <section className='container'>
+        <section className='container' id='skills'>
             <div className="skills-container">
                 <div className='skills-img-container'>
                     <div className='item'>
