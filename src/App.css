@@ -352,6 +352,7 @@
 .pj-img{
     width: 100%;
     object-fit: cover;
+    cursor: pointer;
 }
 
 /* ---- Contact ---- */
@@ -397,6 +398,15 @@
     margin-right: auto;
     margin-bottom: 1rem;
     border-radius: 10px;
+    cursor: pointer;
+}
+
+.contact-inf a{
+    color: white;
+}
+
+.contact-inf a:visited{
+    color: white;
 }
 
 

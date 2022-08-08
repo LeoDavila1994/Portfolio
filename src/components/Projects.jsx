@@ -12,19 +12,19 @@ const Projects = () => {
             <div className="pj-container">
                 <div className='img-container'>
                     <div className='pj-img-container'>
-                        <img src={rm} className="pj-img"/>
+                        <a href="https://multiverserickandmorty.netlify.app/"><img src={rm} className="pj-img"/></a>
                     </div>
                     <div className='pj-img-container'>
-                        <img src={uc} className="pj-img"/>
+                        <a href="https://crudtousers.netlify.app/"><img src={uc} className="pj-img"/></a>
                     </div>
                     <div className='pj-img-container'>
-                        <img src={pk} className="pj-img"/>
+                        <a href="https://pokedextotrainers.netlify.app/"><img src={pk} className="pj-img"/></a>
                     </div>
                     <div className='pj-img-container'>
-                        <img src={wa} className="pj-img"/>
+                        <a href="https://weatherappnow.netlify.app/"><img src={wa} className="pj-img"/></a>
                     </div>
                     <div className='pj-img-container'>
-                        <img src={lp} className="pj-img"/>
+                        <a href="https://landingpagefmh.netlify.app/"><img src={lp} className="pj-img"/></a>
                     </div>
                 </div>
                 <div className='pj-title-container'>
