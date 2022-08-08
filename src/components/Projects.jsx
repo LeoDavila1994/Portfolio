@@ -4,7 +4,6 @@ import uc from '../images/uc.png'
 import lp from '../images/lp.png'
 import wa from '../images/wa.png'
 import pk from '../images/pk.png'
-import wave from "../images/top-wave-mobile.svg";
 
 const Projects = () => {
     return (

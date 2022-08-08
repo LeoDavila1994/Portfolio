@@ -1,5 +1,5 @@
 import './App.css'
-import { Home, Projects, About, Contact, Skills } from "./components"
+import { Home, Projects, About, Contact, Skills, Experience } from "./components"
 
 function App() {
 
@@ -9,7 +9,9 @@ function App() {
       <Home />
       <About />
       <Skills />
-      <Projects />
+      <Experience />
+      {/* <Projects />
+      <Contact /> */}
     </div>
   )
 }
