@@ -305,25 +305,52 @@
 
 /* ---- Projects ---- */
 
-.projects--title{
-    font-size: 3rem;
+.pj-container{
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-image: linear-gradient(rgba(65, 105, 225, 0.5), rgba(250, 128, 114, 0.5));
 }
 
-.projects-container{
-    width: 90%;
-    height: 300px;
+.pj-title-container{
+    width: 30%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.pj-letter-title{
+    color: var(--secondary);
+    font-size: 3.5rem;
+    margin: 0;
+}
+
+.img-container{
+    width: 70%;
+    height: 600px;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+    box-sizing: border-box;
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-evenly;
+    gap: 20px;
+    align-items: center;
     overflow: auto;
-    gap: 50px;
-    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.4);
-    background-color: black;
 }
 
-.img{
+.pj-img-container{
     width: 100%;
-    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 1rem;
+}
+
+.pj-img{
+    width: 100%;
     object-fit: cover;
-    cursor: pointer;
 }
 

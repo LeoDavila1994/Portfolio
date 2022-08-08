@@ -6,24 +6,36 @@ import wa from '../images/wa.png'
 import pk from '../images/pk.png'
 
 const Projects = () => {
+
     return (
         <section className='container'>
-            <h2 className='title projects--title'>PROJECTS</h2>
-            <div className='projects-container'>
-                <div className="item">
-                    <img src={lp} className="img"/>
+            <div className="pj-container">
+                <div className='img-container'>
+                    <div className='pj-img-container'>
+                        <img src={rm} className="pj-img"/>
+                    </div>
+                    <div className='pj-img-container'>
+                        <img src={uc} className="pj-img"/>
+                    </div>
+                    <div className='pj-img-container'>
+                        <img src={pk} className="pj-img"/>
+                    </div>
+                    <div className='pj-img-container'>
+                        <img src={wa} className="pj-img"/>
+                    </div>
+                    <div className='pj-img-container'>
+                        <img src={lp} className="pj-img"/>
+                    </div>
                 </div>
-                <div className="item">
-                    <img src={uc} className="img"/>
-                </div>
-                <div className="item">
-                    <img src={rm} className="img"/>
-                </div>
-                <div className="item">
-                    <img src={wa} className="img"/>
-                </div>
-                <div className="item">
-                    <img src={pk} className="img"/>
+                <div className='pj-title-container'>
+                    <h2 className='pj-letter-title'>P</h2>
+                    <h2 className='pj-letter-title'>R</h2>
+                    <h2 className='pj-letter-title'>O</h2>
+                    <h2 className='pj-letter-title'>J</h2>
+                    <h2 className='pj-letter-title'>E</h2>
+                    <h2 className='pj-letter-title'>C</h2>
+                    <h2 className='pj-letter-title'>T</h2>
+                    <h2 className='pj-letter-title'>S</h2>
                 </div>
             </div>
         </section>
