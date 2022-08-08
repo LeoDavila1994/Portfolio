@@ -6,10 +6,10 @@ function App() {
 
   return (
     <div className='main'>
-      {/* <Home />
+      <Home />
       <About />
       <Skills />
-      <Experience /> */}
+      <Experience />
       <Projects />
       {/* <Contact /> */}
     </div>
